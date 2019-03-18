@@ -20,7 +20,7 @@ public class CamelRouter extends RouteBuilder {
                 .apiProperty("api.title", "Greeting REST API")
                 .apiProperty("api.version", "1.0")
                 .apiProperty("cors", "true")
-                .apiProperty("base.path", "camel/")
+                .apiProperty("base.path", "/")
                 .apiProperty("api.path", "/")
                 .apiProperty("host", "")
                 .apiContextRouteId("doc-api")
